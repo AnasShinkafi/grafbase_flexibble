@@ -39,14 +39,14 @@ const makeGraphQLRequest = async (query: string, variables = {}) => {
   } catch (err) {
     throw err;
   }
-}; 
+};
 
-export const fetchAllProjects = (category: string, endCursor?: string) => {
+export const fetchAllProjects = (category?: string | null, endcursor?: string | null) => {
   client.setHeader("x-api-key", apiKey);
 
-  return makeGraphQLRequest(projectsQuery, { category, endCursor });
+  return makeGraphQLRequest(projectsQuery, { category, endcursor });
 };
- 
+
 export const createNewProject = async (form: ProjectForm, creatorId: string, token: string) => {
   const imageUrl = await uploadImage(form.image);
 
