@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'BusinessShow',
-  description: 'Showcase and discover remarkable Business',
+  title: 'Flexibble',
+  description: 'Showcase and discover remarkable developer project',
 }
 
 export default function RootLayout({
