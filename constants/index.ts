@@ -1,9 +1,9 @@
 export const NavLinks = [
     { href: '/', key: 'Inspiration', text: 'Inspiration' },
-    { href: '/', key: 'Find Projects', text: 'Find Projects' },
-    { href: '/', key: 'Learn Development', text: 'Learn Development' },
-    { href: '/', key: 'Career Advancement', text: 'Career Advancement' },
-    { href: '/', key: 'Hire Developers', text: 'Hire Developers' }
+    { href: '/', key: 'Find Business', text: 'Find Business' },
+    { href: '/', key: 'Learn Business', text: 'Learn Business' },
+    { href: '/', key: 'Business Advancement', text: 'Business Advancement' },
+    { href: '/', key: 'Business Developer', text: 'Business Developers' }
   ];
   
   export const categoryFilters = [
@@ -20,27 +20,27 @@ export const NavLinks = [
     "Blockchain",
     "E-commerce",
     "Chatbots"
-  ]
+  ];
   
   export const footerLinks = [
     {
-      title: 'For developers',
+      title: 'For Business',
       links: [
         'Go Pro!',
-        'Explore development work',
-        'Development blog',
-        'Code podcast',
-        'Open-source projects',
+        'Explore Business idea',
+        'Development Business',
+        'Business grow',
+        'Open Business process',
         'Refer a Friend',
         'Code of conduct',
       ],
     },
     {
-      title: 'Hire developers',
+      title: 'Get Business Mentor',
       links: [
         'Post a job opening',
-        'Post a freelance project',
-        'Search for developers',
+        'Post a freelance Business',
+        'Search for Mentor',
       ],
     },
     {
@@ -66,32 +66,35 @@ export const NavLinks = [
     {
       title: 'Directories',
       links: [
-        'Development jobs',
-        'Developers for hire',
-        'Freelance developers for hire',
+        'Business Categories',
+        'Mentor for hire',
+        'Freelance Business for hire',
         'Tags',
         'Places',
       ],
     },
     {
-      title: 'Development assets',
+      title: 'Business assets',
       links: [
-        'Code Marketplace',
-        'GitHub Marketplace',
+        'Business Marketplace',
+        'Online Marketplace',
         'NPM Registry',
         'Packagephobia',
       ],
     },
     {
-      title: 'Development Resources',
+      title: 'Business Resources',
       links: [
         'Freelancing',
-        'Development Hiring',
-        'Development Portfolio',
-        'Development Education',
-        'Creative Process',
+        'Business Hiring',
+        'Types of Business',
+        'Business Education',
+        'Business Process',
         'Development Industry Trends',
       ],
     },
   ];
   
+  export const footer = {
+    title: "@ 2023 BusinessShow. All rights reserved."
+  }
